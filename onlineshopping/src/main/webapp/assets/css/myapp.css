@@ -1,3 +1,36 @@
+html{
+	height: 100%;
+}
+
 body {
 	padding-top: 70px;
+	height: 100%;
+}
+.navbar-dark .navbar-nav .nav-item>a.nav-link {
+	color: #010101;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.active{
+	background-color: red;
+}
+@media screen and (min-width: 992px) {
+  .navbar-dark .navbar-nav .nav-item>a.nav-link {
+    padding-left:0rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-dark .navbar-nav .nav-item>a.nav-link {
+    padding-left:.5rem;
+  }
+  .navbar-dark .navbar-toggler{
+  	color: #505050
+  }
+}
+
+.wrapper{
+	min-height: 100%;
+	position: relative;
 }
